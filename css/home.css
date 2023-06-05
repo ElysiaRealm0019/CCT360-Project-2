@@ -14,6 +14,19 @@
   'opsz' 48
 }
 
+#hero-title{
+  font-family: 'Lato', sans-serif;
+  font-size:5rem!important;
+}
+
+#hero-button{
+  font-family: 'Lato', sans-serif;
+}
+
+#hero-content{
+  font-family: 'Montserrat', sans-serif;
+}
+
 @-webkit-keyframes bg-scrolling-reverse {
     100% {
       background-position: 50px 50px;
@@ -71,7 +84,3 @@
    animation-timing-function: linear;
  }
 
- .navbar-scrolled {
-    background-color: #f8f9fa; /* Change to desired color */
-    transition: 0.5s ease;
-  }
