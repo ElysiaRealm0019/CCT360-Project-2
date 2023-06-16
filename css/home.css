@@ -30,6 +30,18 @@
   font-family: 'Lato', sans-serif;
 }
 
+.about-btn{
+  font-family: 'Lato', sans-serif;
+}
+
+.about-title{
+  font-family: 'Lato', sans-serif;
+}
+
+.about-text{
+  font-family: 'Montserrat', sans-serif;
+}
+
 #hero-content{
   font-family: 'Montserrat', sans-serif;
 }
@@ -64,4 +76,5 @@
   background-image: url('../img/bg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  
  }

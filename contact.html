@@ -42,7 +42,7 @@
                     <a class="nav-link fs-6 me-2 fw-medium link-dark link-opacity-50-hover" href="#">Process</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link fs-6 me-2 fw-medium link-dark link-opacity-50-hover" href="contact.html">Contact</a>
+                    <a class="nav-link fs-6 me-2 fw-medium link-dark link-opacity-50-hover" href="#">Contact</a>
                   </li>
                 </ul>
                 <form class="d-flex" role="search" id="searchfield">
@@ -57,124 +57,45 @@
             </div>
       </nav>
       <main>
-        <div class="container-fluid mt-4 mb-5" id="hero-top">
-          <div class="container pt-5 col-xxl-10 px-5" >
-            
-            <div class="row flex-lg-row-reverse align-items-center g-5 pb-5 ">
-              
-              <div class="col-10 col-sm-8 col-lg-6 bg-image">
-                <img src="img/hero.jpg" class="shadow rounded mx-lg-auto img-fluid" alt="hero_image" width="700" height="500" loading="lazy">
-              </div>
-              <div class="col-lg-6">
-                <h1 class="display-3 fw-bold text-dark lh-1 mb-3 " id="hero-title">Future.</h1>
-                <h1 class="display-3 fw-bold  text-dark lh-1 mb-3" id="hero-title">In our hands.</h1>
-                <p class="lead fw-light  text-dark" id="hero-content">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                  <button id="hero-button" type="button" class="btn btn-outline-dark btn-lg px-4 fw-medium">More about our latest Project</button>
+        <div class="container mt-5">
+            <div class="container">
+                <div class="p-5 text-center bg-body-tertiary rounded-3">
+                  <svg class="bi mt-4 mb-3" style="color: var(--bs-indigo);" width="100" height="100"><use xlink:href="#bootstrap"></use></svg>
+                  <h1 class="text-body-emphasis">Jumbotron with icon</h1>
+                  <p class="col-lg-8 mx-auto fs-5 text-muted">
+                    This is a custom jumbotron featuring an SVG image at the top, some longer text that wraps early thanks to a responsive <code>.col-*</code> class, and a customized call to action.
+                  </p>
                 </div>
               </div>
+            <div class="col-7 mx-auto pt-4 mt-3">
+                <form class="row g-3 needs-validation" novalidate>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label about-title fw-bold fs-5">Email address</label>
+                        <input type="email" class="form-control about-text" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name@example.com" required>
+                        <div id="emailHelp" class="form-text about-text">We'll never share your email with anyone else.</div>
+                        <div class="invalid-feedback">
+                            Please provide a proper email address.
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label about-title fw-bold fs-5">RitouLink Username</label>
+                        <div class="input-group">
+                            <span class="input-group-text" id="basic-addon3">@</span>
+                            <input type="text" class="form-control about-text" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                        
+                        <div id="emailHelp" class="form-text about-text">If you don't have it, leave it blank.</div>
+                    </div>
+                    <div class="col-12">
+                        <button class="btn btn-primary" type="submit">Submit form</button>
+                      </div>
+                </div>
+                  </form>
             </div>
-          </div>
-        </div>
-        
-        <div class="container">
-          <h2 class="border-bottom border-1 feature-head fw-bold fs-1 pb-3">About Us</h2>
-          <div class="container px-4 py-3" id="hanging-icons">
-            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-              <div class="col d-flex align-items-start">
-                <div class="icon-square text-body-emphasis bg-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 p-3 rounded-3">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="white" class="bi bi-pc-display" viewBox="0 0 16 16">
-                    <path d="M8 1a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1V1Zm1 13.5a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0Zm2 0a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0ZM9.5 1a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5ZM9 3.5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 0-1h-5a.5.5 0 0 0-.5.5ZM1.5 2A1.5 1.5 0 0 0 0 3.5v7A1.5 1.5 0 0 0 1.5 12H6v2h-.5a.5.5 0 0 0 0 1H7v-4H1.5a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5H7V2H1.5Z"/>
-                  </svg>
-                </div>
-                <div>
-                  <h3 class="fs-2 text-body-emphasis about-title">Featured title</h3>
-                  <p class="about-text" >Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-                  <a href="#" class="btn btn-outline-dark about-btn">
-                    Primary button
-                  </a>
-                </div>
-              </div>
-              <div class="col d-flex align-items-start">
-                <div class="icon-square text-body-emphasis bg-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 p-3 rounded-3">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="white" class="bi bi-pc-display" viewBox="0 0 16 16">
-                    <path d="M8 1a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1V1Zm1 13.5a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0Zm2 0a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0ZM9.5 1a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5ZM9 3.5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 0-1h-5a.5.5 0 0 0-.5.5ZM1.5 2A1.5 1.5 0 0 0 0 3.5v7A1.5 1.5 0 0 0 1.5 12H6v2h-.5a.5.5 0 0 0 0 1H7v-4H1.5a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5H7V2H1.5Z"/>
-                  </svg>
-                </div>
-                <div>
-                  <h3 class="fs-2 text-body-emphasis about-title">Featured title</h3>
-                  <p class="about-text">Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-                  <a href="#" class="btn btn-outline-dark about-btn">
-                    Primary button
-                  </a>
-                </div>
-              </div>
-              <div class="col d-flex align-items-start">
-                <div class="icon-square text-body-emphasis bg-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 p-3 rounded-3">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="white" class="bi bi-pc-display" viewBox="0 0 16 16">
-                    <path d="M8 1a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1V1Zm1 13.5a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0Zm2 0a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0ZM9.5 1a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5ZM9 3.5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 0-1h-5a.5.5 0 0 0-.5.5ZM1.5 2A1.5 1.5 0 0 0 0 3.5v7A1.5 1.5 0 0 0 1.5 12H6v2h-.5a.5.5 0 0 0 0 1H7v-4H1.5a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5H7V2H1.5Z"/>
-                  </svg>
-                </div>
-                <div>
-                  <h3 class="fs-2 text-body-emphasis about-title">Featured title</h3>
-                  <p class="about-text">Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-                  <a href="#" class="btn btn-outline-dark about-btn">
-                    Primary button
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="container mb-2">
-          <h2 class="mb-4 feature-head fw-bold fs-1 border-bottom border-1 pb-3">Our Projects</h2>
-          <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4 pt-2">
-            <div class="col">
-              <div class="card text-bg-dark border-0 shadow mt-3">
-                <img src="img/hero.jpg" class="card-img" alt="...">
-                <div class="card-img-overlay d-flex flex-column align-items-start justify-content-center">
-                  <h5 class="card-title fw-bold fs-3">Card title</h5>
-                  <p class="card-text fs-6">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <button type="button" class="btn btn-outline-light button-feature fs-5 fw-bold">Learn more</button>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card text-bg-dark border-0 shadow mt-3">
-                <img src="img/hero.jpg" class="card-img" alt="...">
-                <div class="card-img-overlay d-flex flex-column align-items-start justify-content-center">
-                  <h5 class="card-title fw-bold fs-3">Card title</h5>
-                  <p class="card-text fs-6">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <button type="button" class="btn btn-outline-light button-feature fs-5 fw-bold">Learn more</button>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card text-bg-dark border-0 shadow mt-3">
-                <img src="img/hero.jpg" class="card-img" alt="...">
-                <div class="card-img-overlay d-flex flex-column align-items-start justify-content-center">
-                  <h5 class="card-title fw-bold fs-3">Card title</h5>
-                  <p class="card-text fs-6">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <button type="button" class="btn btn-outline-light button-feature fs-5 fw-bold">Learn more</button>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card text-bg-dark border-0 shadow mt-3">
-                <img src="img/hero.jpg" class="card-img" alt="...">
-                <div class="card-img-overlay d-flex flex-column align-items-start justify-content-center">
-                  <h5 class="card-title fw-bold fs-3">Card title</h5>
-                  <p class="card-text fs-6">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <button type="button" class="btn btn-outline-light button-feature fs-5 fw-bold">Learn more</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="container  border-bottom border-1 mt-5">
-          </div>
-        </div>
+
+      </main>
         <div class="container border-1">
-          <footer class="py-5">
+          <footer class="mt-4">
             <div class="row">
               <div class="col-6 col-md-2 mb-3">
                 <h5 class="about-title fw-bold">Section</h5>
@@ -236,6 +157,26 @@
             </div>
           </footer>
         </div>
+        <script>
+            (() => {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  const forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.from(forms).forEach(form => {
+    form.addEventListener('submit', event => {
+      if (!form.checkValidity()) {
+        event.preventDefault()
+        event.stopPropagation()
+      }
+
+      form.classList.add('was-validated')
+    }, false)
+  })
+})()
+        </script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
       </main>
   </body>
