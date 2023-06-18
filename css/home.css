@@ -74,14 +74,17 @@
 
  #hero-top{
   background-image: url('../img/bg.jpg');
-  background-size: cover;
+  background-size:cover;
+  background-position: center;
   background-repeat: no-repeat;
-  
+  background-blend-mode:soft-light
  }
 
  #newsTop{
-  background-image: url('../img/bg.jpg');
+  background-image: url('../img/news.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-blend-mode:soft-light;
+  background-position:center;
+  background-blend-mode: soft-light;
  }
+
