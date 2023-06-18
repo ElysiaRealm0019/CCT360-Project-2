@@ -88,3 +88,16 @@
   background-blend-mode: soft-light;
  }
 
+ #ls-hero{
+  background-image: url('../img/lbhero.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  background-blend-mode: soft-light;
+ }
+
+ .lspic:hover{
+  transform: scale(1.05);
+  transition: .25s ease;
+ }
+
