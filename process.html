@@ -39,10 +39,10 @@
                     <a class="nav-link fs-6 me-2 fw-medium link-dark link-opacity-50-hover" href="news.html">News</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link fs-6 me-2 fw-medium link-dark link-opacity-50-hover" href="process.html">Process</a>
+                    <a class="nav-link fs-6 me-2 fw-medium link-dark link-opacity-50-hover" aria-current="page" href="process.html">Process</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link fs-6 me-2 fw-medium link-dark link-opacity-50-hover" aria-current="page" href="contact.html">Contact</a>
+                    <a class="nav-link fs-6 me-2 fw-medium link-dark link-opacity-50-hover"  href="contact.html">Contact</a>
                   </li>
                 </ul>
                 <form class="d-flex" role="search" id="searchfield">
@@ -56,65 +56,40 @@
               </div>
             </div>
       </nav>
-      <main class="">
-        <div class="container mt-3">
-            <div class="container">
-                <div class="p-5 text-center rounded-3">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-chat-left-quote my-3" viewBox="0 0 16 16">
-                    <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
-                    <path d="M7.066 4.76A1.665 1.665 0 0 0 4 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112zm4 0A1.665 1.665 0 0 0 8 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112z"/>
-                  </svg>
-                  <h1 class="text-body-emphasis about-title fw-bold">Your opinion matters.</h1>
-                  <p class="col-lg-8 mx-auto fs-5 text-muted about-text">
-                    Interested in one of our projects? Want to participate in a specific development process? Don't hestitate to send us a message! Simply use the form below to give us your opinion!
-                  </p>
-                </div>
-              </div>
-            <div class="col-lg-7 col-md-9 mx-auto pt-4">
-                <form class="row g-3 needs-validation" novalidate>
-                    <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label about-title fw-bold fs-5">Email address</label>
-                        <input type="email" class="form-control about-text" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name@example.com" required>
-                        <div id="emailHelp" class="form-text about-text">We'll never share your email with anyone else.</div>
-                        <div class="invalid-feedback about-text">
-                            Please provide a proper email address.
-                        </div>
-                    </div>
-                    <div class="mb-3">
-                        <label for="inputUsername" class="form-label about-title fw-bold fs-5">RitouLink Username</label>
-                        <div class="input-group">
-                            <span class="input-group-text" id="basic-addon3">@</span>
-                            <input id="inputUsername" type="text" class="form-control about-text" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
-                        </div>
-                        <div id="emailHelp" class="form-text about-text">If you don't have it, leave it blank.</div>
-                    </div>
-                    <div class="mb-3">
-                      <label for="selectFocus" class="form-label about-title fw-bold fs-5">I'm interested in...</label>
-                      <select class="form-select about-text" aria-label="Select the project you are interested in" id="selectFocus" required>
-                        <option selected disabled value="">Choose the project you are interested in</option>
-                        <option value="1">Project:Lightshaper</option>
-                        <option value="2">Project:Promethus</option>
-                        <option value="3">Project:A.R.M.C.O.R.E</option>
-                      </select>
-                      <div class="invalid-feedback about-text">
-                        Please select a project.
-                      </div>
-                    </div>
-                    <div class="mb-3">
-                      <label for="validationTextarea" class=" about-title fw-bold fs-5 form-label">Your Message</label>
-                      <textarea class="form-control about-text" style="height:200px" id="validationTextarea" placeholder="Type your message here..." required></textarea>
-                      <div class="invalid-feedback about-text">
-                        Your message cannot be blank.
-                      </div>
-                    </div>
+      <main class="mt-4 pt-2">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-md-12">  
+                  <article class="blog-post">
+                    <h2 class="display-5 fw-bold mb-1 about-title">How was this site made?</h2>
+                    <p class="blog-post-meta about-text">June 15, 2023 by Northern Complex</p>
+                    <p class="about-text fw-semibold">The process of making this website is documented here - from the initial design concept and color selection, to the building of the overall architecture, to the final, complete product.</p>
+                    <hr>
+                    <p class="about-text lh-lg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When I started looking for a concept, I thought of creating a portal-like site for my personal studio to better advertise the services my studio offers and to attract more clients. I thought it would be easier to create a logo and branding for a studio than for an individual, not only because I had previous experience in this area, but also because the main point of designing a logo for an individual is to express the individual's character, which is my biggest shortcoming. <strong>So, I decided to create a website for my studio.</strong></p>
                     <div class="col-12">
-                        <button type="submit" class="btn btn-outline-dark about-btn fw-bold">
-                          Submit message
-                        </button>
+                        <div class="d-xxl-flex">
+                            <p class="about-text lh-lg col-12 col-xxl-6">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For the overall design, I drew some inspiration from my previous studio website using non-bootstrap techniques, such as the overall color scheme, fonts and typography, etc. It is worth noting that implementing some of the original decorative features (e.g. background animations) using Bootstrap alone would have involved a lot of effort and complex Javascript programming. It's worth noting that implementing some of the original decorative features (e.g. background animations) through bootstrap alone would have involved quite a bit of complex Javascript programming, so for this version I decided to <strong>remove the background animations and use a plain white background instead.</strong>  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fortunately, the white background with black text can also achieve the original aesthetic effect without looking too monotonous.Also, instead of continuing to use large headings in the new pages, I added images.
+                            </p>
+                            <img src="img/p1.jpg" class="col-12 col-xxl-6 mt-2">
+                        </div>
+                        <p class="about-text lh-lg">
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For the media selection of the new pages, I decided to use only self-made images in the corresponding display sections (since they are usually quite large and have the potential for quality loss and color mismatch when saved as JPEGs). For the other decorative parts (e.g. images on the home page and news page) I use directly open copyright images. Not only does this save a lot of editing work by finding the right size image faster, but it also allows me to find the right tone of the image faster so it doesn't look so out of place.
+                        </p>
+                        <p class="about-text lh-lg">
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Regarding the icons, I didn't just Google random icons and use them as I did before - this would have led to serious stylistic inconsistencies between the icons. I tried Google's icons and Bootstrap's system icons, and Bootstrap's icons won out because they were easier to edit (to use Google's icons you had to load Google's icon fonts, which prevented him from using a set of parameters that could only be used on SVG).
+                        </p>
+                        <div class="d-xxl-flex">
+                            <img src="img/p2.jpg" class="col-12 col-xxl-6 mt-2">
+                            <p class="about-text lh-lg col-12 col-xxl-6 ms-4">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In terms of the overall arrangement of elements, I decided to minimize unnecessary embellishments and elements (such as meaningless borders, icons, etc.) - as most technology companies do - thus giving the entire site a minimalist style. I also took some of the design inspiration from these sites (e.g. Apple's site) (e.g. the shape of the cards, the use of rounded rectangles wherever possible, etc.). This design removes as many sharp features and elements as possible to make the site more pleasant to look at.<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;However, my ultimate goal is not to "copy" the design style of a particular site or sites, but to make the design style of these sites organic to the design I want, so as to improve the overall attractiveness and aesthetic performance of the site, and to make it look more approachable and comfortable to the audience.<strong>In a word, what I want to achieve is my own "minimalism" that is different.</strong>
+                            </p>
+                        </div>
+                        <h2 class="about-title fw-bold">Links for used Royalty Free Pictures:</h2>
                     </div>
-                </form>
-            </div>
-
+              </div>
+        </div>
       </main>
       <div class="container border-1">
         <footer class="py-5">
